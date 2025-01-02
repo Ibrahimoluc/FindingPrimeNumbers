@@ -14,9 +14,11 @@ My strategy is so:
   - If the number is can not divided by any number in list 'list', then I add it in the answer_list, 'ans_list' variable.
     
 
-Python Code for the Algorithm:
 
-`import math 
+
+Python Code for the Algorithm:
+```
+import math 
 def findPrimesToN(n):
     list = [2]
     flag = 1
@@ -47,4 +49,4 @@ for i in range(501, 600, 2):
         ans_list.append(i)
        
 print(ans_list) #this is the answer
-`
+```
