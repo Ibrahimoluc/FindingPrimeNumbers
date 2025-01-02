@@ -16,7 +16,7 @@ My strategy is so:
 
 Python Code for the Algorithm:
 
-import math 
+`import math 
 def findPrimesToN(n):
     list = [2]
     flag = 1
@@ -47,4 +47,4 @@ for i in range(501, 600, 2):
         ans_list.append(i)
        
 print(ans_list) #this is the answer
-
+`
